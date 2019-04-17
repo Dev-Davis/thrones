@@ -1,3 +1,8 @@
 import '../styles/index.scss';
+import characters from './components/characters/characters';
+import './helpers/util';
 
-console.error('hi');
+const init = () => {
+  characters.getData();
+};
+init();
